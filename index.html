@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gimolo – Playful Game Activity Screen</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brand-text">
+          <div class="name">Gimolo</div>
+          <div class="tagline">tiny moves • real momentum</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="stage">
+      <section id="cardHost" class="card-host" aria-live="polite"></section>
+    </main>
+
+    <div id="countdown" class="countdown hidden" aria-hidden="true">
+      <div class="count-wrap">
+        <div class="count-number" id="countNum">3</div>
+        <div class="count-sub" id="countSub">Get ready</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
