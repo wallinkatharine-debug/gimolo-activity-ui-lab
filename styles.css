@@ -1,0 +1,116 @@
+
+:root {
+  --bg1:#6db4ff;
+  --bg2:#b28cff;
+}
+
+body {
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: linear-gradient(180deg,var(--bg1),var(--bg2));
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  min-height:100vh;
+  color:white;
+}
+
+.app {
+  width:100%;
+  max-width:420px;
+  padding:20px 16px 40px;
+}
+
+.topbar {
+  margin-bottom:40px;
+}
+
+.brand {
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo {
+  width:36px;
+  height:36px;
+  border-radius:12px;
+  background: conic-gradient(#ff6b6b,#ffd93d,#6bffb0,#6bd2ff,#8b6bff,#ff6bd2,#ff6b6b);
+}
+
+.name {
+  font-weight:800;
+}
+
+.tagline {
+  font-size:12px;
+  opacity:.7;
+}
+
+.stage {
+  display:flex;
+  justify-content:center;
+}
+
+.card {
+  width:100%;
+  text-align:center;
+  padding:60px 24px 50px;
+  border-radius:32px;
+  background: linear-gradient(180deg,#3b4fa1,#6c3ebc);
+  box-shadow:0 25px 60px rgba(0,0,0,.25);
+}
+
+.title {
+  font-size:60px;
+  font-weight:900;
+  line-height:1.05;
+  letter-spacing:-1px;
+  margin:0 0 28px 0;
+}
+
+.desc {
+  font-size:20px;
+  line-height:1.4;
+  margin:0 auto 40px;
+  max-width:90%;
+  opacity:.95;
+}
+
+.btn-primary {
+  width:100%;
+  border:none;
+  padding:20px;
+  font-size:20px;
+  font-weight:900;
+  border-radius:18px;
+  background: linear-gradient(90deg,#f59e0b,#fb7185);
+  color:white;
+  cursor:pointer;
+}
+
+.swap {
+  margin-top:18px;
+  font-size:16px;
+  opacity:.7;
+  cursor:pointer;
+}
+
+.meta {
+  margin-top:40px;
+  font-size:14px;
+  opacity:.55;
+}
+
+.countdown {
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.6);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:100px;
+  font-weight:900;
+}
+
+.hidden { display:none; }
