@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Two-Minute Story",
+    "prompt": "Tell a 2-minute story where every sentence starts with \u201cSuddenly\u2026\u201d.",
+    "timeLabel": "10 min",
+    "energyLabel": "Medium",
+    "locationLabel": "Indoor",
+    "modeLabel": "Solo",
+    "badge": "Play Moment",
+    "tag": "story"
+  },
+  {
+    "title": "Mini Art",
+    "prompt": "Draw something tiny. Any paper. Any skill level.",
+    "timeLabel": "10 min",
+    "energyLabel": "Light lift",
+    "locationLabel": "Indoor",
+    "modeLabel": "Solo",
+    "badge": "Small win time",
+    "tag": "art"
+  },
+  {
+    "title": "Quick Stretch",
+    "prompt": "Do a 2-minute stretch. Pick your tightest spot.",
+    "timeLabel": "2:00",
+    "energyLabel": "Light lift",
+    "locationLabel": "Either",
+    "modeLabel": "Solo",
+    "badge": "You can do this",
+    "tag": "stretch"
+  },
+  {
+    "title": "Speed Sort",
+    "prompt": "Sort 10 random objects into 2 categories in 60 seconds.",
+    "timeLabel": "1 min",
+    "energyLabel": "Light lift",
+    "locationLabel": "Either",
+    "modeLabel": "Family",
+    "badge": "Speed round",
+    "tag": "sort"
+  }
+]
